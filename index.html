@@ -64,7 +64,7 @@
             <div class="banner_content">
               <h3 class="text-uppercase">Hell0</h3>
               <h1 class="text-uppercase">I am Jodi Raina</h1>
-              <h5 class="text-uppercase">Web Developer</h5>
+              <h5 class="text-uppercase">Mobile Developer | Frontend Developer</h5>
               <div class="d-flex align-items-center">
                 <a class="primary_btn" href="img/cv.pdf" download="cv.pdf"><span>Get CV</span></a>
               </div>
@@ -131,6 +131,18 @@
       <div class="row feature_inner">
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
+            <img src="img/services/react.png" class="img-fluid d-block mx-auto w-50" alt="" />
+            <h4>React Native</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="feature_item">
+            <img src="img/services/react.png" class="img-fluid d-block mx-auto w-50" alt="" />
+            <h4>React JS</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="feature_item">
             <img src="img/services/html.png" class="img-fluid d-block mx-auto w-50" alt="" />
             <h4>HTML</h4>
           </div>
@@ -149,32 +161,20 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
-            <img src="img/services/php.png" alt="" class="img-fluid d-block mx-auto w-50 pb-2"/>
-            <h4>PHP</h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="feature_item">
-            <img src="img/services/java.png" alt="" class="img-fluid d-block mx-auto w-50"/>
-            <h4>Java</h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="feature_item">
-            <img src="img/services/laravel.png" alt="" class="img-fluid d-block mx-auto w-50"/>
-            <h4>Laravel</h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="feature_item">
-            <img src="img/services/ci.png" alt="" class="img-fluid d-block mx-auto w-50"/>
-            <h4>CodeIgniter</h4>
+            <img src="img/services/tailwind.png" alt="" class="img-fluid d-block mx-auto w-50"/>
+            <h4>Tailwind CSS</h4>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="img/services/boostrap.png" alt="" class="img-fluid d-block mx-auto w-50"/>
             <h4>Bootstrap</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="feature_item">
+            <img src="img/services/mysql.png" alt="" class="img-fluid d-block mx-auto w-50"/>
+            <h4>MySQL</h4>
           </div>
         </div>
       </div>
@@ -198,19 +198,82 @@
       <div class="filters portfolio-filter">
         <ul>
           <li class="active" data-filter="*">all</li>
-          <li data-filter=".popular">popular</li>
           <li data-filter=".latest">latest</li>
           <li data-filter=".following">following</li>
-          <li data-filter=".upcoming">upcoming</li>
+          <li data-filter=".done">done</li>
         </ul>
       </div>
 
       <div class="filters-content">
         <div class="row portfolio-grid justify-content-center">
-          <div class="col-lg-4 col-md-6 all latest popular">
+          <div class="col-lg-4 col-md-6 all done following latest">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/nukrazy.jpg" alt="" />
+                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/temanbakat.webp" alt="Teman Bakat" />
+                <div class="overlay"></div>
+                <a href="img/portfolio/temanbakat.webp" class="img-gal">
+                  <div class="icon">
+                    <span class="lnr lnr-cross"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="short_info">
+                <h4><a>Teman Bakat</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 all done following latest">
+            <div class="portfolio_box">
+              <div class="single_portfolio">
+                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/psychologist&coach.webp" alt="Pyschologist & Coach" />
+                <div class="overlay"></div>
+                <a href="img/portfolio/psychologist&coach.webp" class="img-gal">
+                  <div class="icon">
+                    <span class="lnr lnr-cross"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="short_info">
+                <h4><a>Pyschologist & Coach</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 all done">
+            <div class="portfolio_box">
+              <div class="single_portfolio">
+                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/pampsi.webp" alt="Temukan Psikolog" />
+                <div class="overlay"></div>
+                <a href="img/portfolio/pampsi.webp" class="img-gal">
+                  <div class="icon">
+                    <span class="lnr lnr-cross"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="short_info">
+                <h4><a>Temukan Psikolog</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 all done">
+            <div class="portfolio_box">
+              <div class="single_portfolio">
+                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/asnunggul.webp" alt="ASN Unggul" />
+                <div class="overlay"></div>
+                <a href="img/portfolio/asnunggul.webp" class="img-gal">
+                  <div class="icon">
+                    <span class="lnr lnr-cross"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="short_info">
+                <h4><a>ASN Unggul</a></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 all done">
+            <div class="portfolio_box">
+              <div class="single_portfolio">
+                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/nukrazy.jpg" alt="Nukrazy" />
                 <div class="overlay"></div>
                 <a href="img/portfolio/nukrazy.jpg" class="img-gal">
                   <div class="icon">
@@ -220,24 +283,6 @@
               </div>
               <div class="short_info">
                 <h4><a>Nu Green Tea</a></h4>
-                <p>K-Razy 127 Competition</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 all latest following">
-            <div class="portfolio_box">
-              <div class="single_portfolio">
-                <img class="img-fluid d-block mx-auto w-100" src="img/portfolio/aokiphotobook.PNG" alt="" />
-                <div class="overlay"></div>
-                <a href="img/portfolio/aokiphotobook.PNG" class="img-gal">
-                  <div class="icon">
-                    <span class="lnr lnr-cross"></span>
-                  </div>
-                </a>
-              </div>
-              <div class="short_info">
-                <h4><a>AOKIphotobook</a></h4>
-                <p>Web E-commerce Photobook</p>
               </div>
             </div>
           </div>
